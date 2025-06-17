@@ -45,7 +45,7 @@ ENV USE_CUSTOM_FORMAT no
 ENV COMPRESSION_CMD 'gzip'
 ENV DECOMPRESSION_CMD 'gunzip -c'
 ENV PARALLEL_JOBS 1
-ENV TABLES
+ENV TABLES **None**
 
 ADD run.sh run.sh
 ADD backup.sh backup.sh
